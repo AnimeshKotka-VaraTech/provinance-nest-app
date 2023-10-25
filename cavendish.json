@@ -1,0 +1,28 @@
+{
+  "mnemonic": "name broom medal pen slogan blush version banana message grant all decline weekend rhythm near art imitate milk winter clap awesome green soccer beauty",
+  "accounts": 10,
+  "chainId": "chain-local",
+  "ports": {
+    "rpc": 26657,
+    "grpc": 9090
+  },
+  "hashSupply": "100000000000000000000",
+  "rootNames": [
+    { "name": "pio", "restrict": true },
+    { "name": "pb", "restrict": false },
+    { "name": "io", "restrict": true },
+    { "name": "provenance", "restrict": true }
+  ],
+  "markers": [
+    {
+      "denom": "hotdog.coin",
+      "totalSupply": "1000000000000",
+      "manager": "validator",
+      "access": [
+        "admin",
+        "mint",
+        "burn"
+      ]
+    }
+  ]
+}
